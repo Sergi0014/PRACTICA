@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/materialize.css">
+    <title>Covid 19</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="img/descarga.jpg" class="brand-logo"></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="sintomas.html">SINTOMAS</a></li>
+            <li><a href="mortalidad.html">MORTALIDAD</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+    <section id="sintomas">
+        <h2 class="center-align">Mortalidad</h2>
+        <p class="card-panel teal lighten-2" >Los expertos de la organización estiman que 14,9 millones de muertes pueden asociarse a la pandemia, un total que incluye los 6,2 millones de decesos por covid notificados oficialmente a la OMS por sus 194 países miembros.</p>
+    <div class="center-align">
+        <img src="https://th.bing.com/th/id/OIP.7YyFD83dzPVJk4AzN8Q0jwHaEp?w=268&h=180&c=7&r=0&o=5&pid=1.7" alt="" class="imagen">
+    </div>
+    <br>
+    <h3 class="center-align">Porcentaje por Provincias</h3>
+    <div id="cityPercentages" style="display: none;">
+    <p>Pichincha: Aproximadamente el 6.5% de la población</p>
+    <p>Manabí: Cerca del 7.7% de la población</p>
+    <p>El Oro: Un 8.9% de la població</p>
+    <p>Azuay: Aproximadamente el 6.3% de la población</p>
+    <p>Guayas: Cerca del 4.2% de la población</p>
+</div class="center-align">
+    <div >
+        <button onclick="showChart()" class="waves-effect waves-light btn" >Ver porcentajes</button>
+        <button onclick="hideChart()" class ="waves-effect waves-light btn">Ocultar porcentajes</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
